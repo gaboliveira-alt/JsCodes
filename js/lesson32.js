@@ -8,5 +8,8 @@ const showMessage02 = (username, email) => {
     console.log(logResponse);
 }
 
+const nameExample = "Gabriel Pinto";
+const emailExample = "darthvader@234";
+
 console.log(showMessage01);
-console.log(showMessage02);
+console.log(showMessage02(nameExample, emailExample));
