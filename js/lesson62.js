@@ -11,3 +11,4 @@ class User {
 
 
 const userExample = new User("Gabriel", "g@email.com");
+userExample.sendEmail();
